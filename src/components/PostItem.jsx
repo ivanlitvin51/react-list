@@ -1,15 +1,16 @@
 import React from 'react';
+import MyButton from "./UI/button/MyButton";
 
 const PostItem = (props) => {
-    console.log(props);
     return (
             <div className="post">
                 <div className="post__content">
-                    <strong>1. JavaScript</strong>
-                    <div>JavaScript - programming language
+                    <strong>{props.number}. {props.post.title}</strong>
+                    <div>
+                        {props.post.body}
                     </div>
                     <div className="post__btns">
-                        <button className="del">Удалить</button>
+                        <MyButton onClick={() => props.remove(props.post)} className="del">Удалить</MyButton>
                     </div>
                 </div>
             </div>

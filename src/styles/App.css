@@ -16,9 +16,12 @@
 .post {
     display: flex;
     padding: 15px;
-    border: 2px solid coral;
+    border: 2px solid black;
     border-radius: 22px;
     margin-top: 15px;
     align-items: center;
-    justify-content: space-between;
 }
+
+
+
+

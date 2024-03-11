@@ -1,0 +1,16 @@
+.myBtn {
+    color: black;
+    font-size: 14px;
+    background: transparent;
+    border: 1;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.myBtn:hover {
+    background-color: snow;
+    opacity: 50%;
+    transition-duration: 0.2s;
+}
