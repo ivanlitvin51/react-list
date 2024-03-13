@@ -1,11 +1,10 @@
 .mySelect {
     color: black;
     font-size: 14px;
-    background: transparent;
-    border: 1;
     border-radius: 5px;
     padding: 4px 8px;
     margin-top: 5px;
+    border: 2px solid black;
 }
 
 .mySelect:hover {
